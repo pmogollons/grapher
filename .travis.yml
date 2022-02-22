@@ -1,7 +1,7 @@
-sudo: required
 addons:
   chrome: stable
 
+os: linux
 dist: xenial
 
 services:
@@ -10,7 +10,7 @@ services:
 language: node_js
 
 node_js:
-  - "8.9.1"
+  - "12.16.1"
 
 before_install:
   - curl https://install.meteor.com | /bin/sh
