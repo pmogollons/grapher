@@ -1,5 +1,6 @@
 import './lib/extension.js';
 import './lib/links/extension.js';
+import './lib/extendWithSoftDeletes.js';
 import './lib/query/reducers/extension.js';
 
 export { default as createQuery } from './lib/createQuery.js';
