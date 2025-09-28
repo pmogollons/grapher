@@ -1,7 +1,7 @@
 import './lib/extension.js';
 import './lib/aggregate';
 import './lib/exposure/extension.js';
-import './lib/extendWithSoftDeletes.js';
+import './lib/extendWithSoftDelete.js';
 import './lib/links/extension.js';
 import './lib/query/reducers/extension.js';
 import './lib/namedQuery/expose/extension.js';
